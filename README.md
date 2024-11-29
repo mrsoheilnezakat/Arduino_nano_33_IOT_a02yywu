@@ -7,12 +7,13 @@ This project involves measuring distance using a02yyuw sensor connected to a ard
 2. a02yyuw Sensor
 4. Jumper Wires
 
-### Connect the DHT22 sensor to the Raspberry Pi Pico W as follows:
+### Connect the a02yyuw sensor to the Arduino nano 33 IOT as follows:
 
-1. VCC (DHT22) → 3.3V (Pico W)
-2. Data (DHT22) → GPIO22 (Pico W)
-3. GND (DHT22) → GND (Pico W)
-**optional** Add a 10 kΩ pull-up resistor between the Data line and VCC.
+1. VCC (a02yyuw) → 3.3V (nano 33)
+2. TX (a02yyuw) → PB22 (nano 33)
+3. GND (a02yyuw) → GND (nano 33)
+4. RX (a02yyuw) → PB23 (nano 33)
+
 
 ### Code:
 
