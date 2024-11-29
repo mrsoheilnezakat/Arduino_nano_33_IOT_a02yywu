@@ -1,6 +1,6 @@
 # Distance Measurement with a02yyuw and arduino nano 33 IOT
 ## Introduction
-This project involves measuring distance using a02yyuw sensor connected to a arduino nano 33 IOT. fFrom the sensor side, The red wire should be conected to 3.3v GPIO and black wire should be conected to a GND GPIO, green wire which is RX, and the blue wire whic is TX should be connected accordingly to the RX and TX GPIO of the arduino nano 33 IOT as per the [GPIO map](https://store.arduino.cc/en-de/products/arduino-nano-33-iot) should be connected as it is [wire connections]()
+This project involves measuring distance using a02yyuw sensor connected to a arduino nano 33 IOT. fFrom the sensor side, The red wire should be conected to 3.3v GPIO and black wire should be conected to a GND GPIO, green wire which is RX, and the blue wire whic is TX should be connected accordingly to the RX and TX GPIO of the arduino nano 33 IOT as per the [GPIO map](https://store.arduino.cc/en-de/products/arduino-nano-33-iot) should be connected as it is [wire connections](https://github.com/mrsoheilnezakat/Arduino_nano_33_IOT_a02yywu/blob/main_branch/images/connection.jpeg)
 
 ### Components Needed
 1. aAduino nano 33 IOT
