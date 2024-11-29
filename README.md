@@ -17,24 +17,23 @@ This project involves measuring distance using a02yyuw sensor connected to a ard
 
 ### Code:
 
-Use the following MicroPython code to read data from the DHT22 sensor: [python script](https://github.com/mrsoheilnezakat/Raspberry_pi_pico_w_dht22/blob/main_branch/main.py)
+Use the following MicroPython code to read data from the DHT22 sensor: [cpp code](https://github.com/mrsoheilnezakat/Arduino_nano_33_IOT_a02yywu/blob/main_branch/measurment.cpp)
  
 ## Steps to Follow
 
 ### Set Up the Hardware:
 
-Connect the DHT22 sensor to the Pico W according to the wiring diagram.
+Connect the a02yyuw sensor to the Arduino to the wiring diagram.
 
-[actual setup](https://github.com/mrsoheilnezakat/Raspberry_pi_pico_w_dht22/blob/main_branch/image/actual%20setup.jpeg)
+[actual setup](https://github.com/mrsoheilnezakat/Arduino_nano_33_IOT_a02yywu/blob/main_branch/images/connection.jpeg)
 
-[diagram](https://github.com/mrsoheilnezakat/Raspberry_pi_pico_w_dht22/blob/main_branch/image/diagram.png)
+### starting with arduino nano 33 IOT
 
-### Install MicroPython on Pico W and setup script:
-
-1. Flash pico-w by holding the button on pico and connect it to RPi or workstation running thonny. A storage device should be available on your devic.
-2. Copy the downloaded micropython into storage and the device automatically get restarted. (always download from raspberry pi "latest and specifically for your microcontroller")
-3. Select the device in thonny.
-4. Configure interpreter from run menu, and select micropython.
-5. Install dht library from manage packages in tools menu.
-6. Save the script on the pico-w as main.py (in order to run on pico startup)
+1. Connect the arduino wia micro usb oto your workstation
+2. Install arduino IDE on your system
+3. From tools menu, select *board* and *port*
+4. Write your code
+5. Verify your code via check-mark button on top to check if there is any error
+6. Deploy it on the device, by clicking on right-arrow button
+7. From tools menu, open serial manitor to view the output.
 
